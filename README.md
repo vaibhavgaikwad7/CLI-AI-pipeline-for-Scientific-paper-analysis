@@ -215,31 +215,10 @@ package.json
 
 ---
 
-## 🧭 Roadmap
-
-- [ ] Line-level explainability (show lines used for title/authors/dates)  
-- [ ] Citation-aware RAG enhancement  
-- [ ] SHAP-style heuristic explainability  
-- [ ] Automatic summary evaluation (ROUGE / BERTScore)  
-- [ ] Web dashboard for viewing outputs  
-- [ ] Batch processing mode  
-- [ ] Layout-aware PDF parsing (PyMuPDF)  
-
----
-
-## 🤝 Contributing
-
-Open to issues, ideas, and PRs — contributions are welcome.
-
----
 
 ## 📜 License
 
 MIT License – free to use, modify, and distribute.
 
 ---
-
-## ⭐ Acknowledgements
-
-This project started as a technical challenge and evolved into a robust hybrid Document AI pipeline, combining traditional heuristics with modern LLM systems for scientific document understanding.
 
