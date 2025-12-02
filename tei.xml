@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">METABOLOMIC ANALYSIS TO PREDICT THE ONSET AND SEVERITY OF NECROTIZING ENTEROCOLITIS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD</roleName><forename type="first">Laura</forename><surname>Moschino</surname></persName>
+							<email>laura.moschino@aopd.veneto.it</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neonatal Intensive Care Unit</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<address>
+									<addrLine>Città della Speranza</addrLine>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giovanna</forename><surname>Verlato</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neonatal Intensive Care Unit</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matteo</forename><surname>Stocchero</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<address>
+									<addrLine>Città della Speranza</addrLine>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<orgName type="laboratory">Laboratory of Mass Spectrometry and Metabolomics</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giuseppe</forename><surname>Giordano</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<address>
+									<addrLine>Città della Speranza</addrLine>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<orgName type="laboratory">Laboratory of Mass Spectrometry and Metabolomics</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paola</forename><surname>Pirillo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<address>
+									<addrLine>Città della Speranza</addrLine>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<orgName type="laboratory">Laboratory of Mass Spectrometry and Metabolomics</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marta</forename><surname>Meneghelli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neonatal Intensive Care Unit</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Silvia</forename><surname>Guiducci</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neonatal Intensive Care Unit</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Miriam</forename><surname>Duci</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Pediatric Surgery</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francesco</forename><forename type="middle">Fascetti</forename><surname>Leon</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Pediatric Surgery</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eugenio</forename><surname>Baraldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neonatal Intensive Care Unit</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Pediatric Research</orgName>
+								<address>
+									<addrLine>Città della Speranza</addrLine>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Neonatal Intensive Care Unit</orgName>
+								<orgName type="institution">Padova University Hospital</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">METABOLOMIC ANALYSIS TO PREDICT THE ONSET AND SEVERITY OF NECROTIZING ENTEROCOLITIS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D61B264EB3548B72E8CAE2A59B221C77</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.3" ident="GROBID" when="2025-10-03T02:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>necrotizing enterocolitis</term>
+					<term>preterm neonate</term>
+					<term>biomarker</term>
+					<term>mass-spectrometry</term>
+					<term>metabolome</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Necrotizing enterocolitis (NEC) is the most devastating gastrointestinal (GI) emergency of the preterm neonate. Untargeted metabolomics may allow the identification of biomarkers involved in NEC pathophysiology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head><p>We conducted a prospective study including preterm infants born &lt;34 gestational weeks (GW) who had their urine longitudinally collected at birth (&lt;48 hours, T0), at 14 (T1) and 28 days (T2). Neonates were followed for their development of NEC, spontaneous intestinal perforation (SIP), or other GI conditions and compared to matched healthy controls. Urine samples were investigated by untargeted metabolomic analysis based on mass-spectrometry.</p><p>Findings: Thirty-five cases of NEC, 5 cases of SIP, 14 patients with other GI diseases and 113 controls were enrolled and then selected for the metabolomic analysis on the basis of their clinical characteristics and available samples. Considering urine samples at T0, one-class classification approach was able to correctly classify 16/20 subjects (80%) developing NEC, 3/3 (100%) subject developing SIP and 5/7 subjects (71.4%) with other GI pathologies as not belonging to the control group. Neonates with surgical NEC showed higher N-acetylaspartic acid, butyrylcarnitine and propionylcarnitine levels than those with medical NEC. Considering the time evolution of the urinary metabolome, NEC and control groups showed differences independently of the time point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation:</head><p>The urinary metabolome is closely associated with the underlying GI disease from birth. Urinary metabolic features characterize NEC cases from healthy controls until 28 days of life. The early urinary metabolome has a potential to predict surgical NEC. Future studies are needed to validate our results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Research in context</head><p>Evidence before this study: Untargeted metabolomics has been applied for the prediction of necrotizing enterocolitis (NEC) on plasma, urine and stools. However, no studies have explored the differences in metabolic profiles of NEC and other gastrointestinal (GI) conditions of the preterm infants, nor the possibility to predict NEC severity.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIAL AND METHODS Study design and population</head><p>We conducted a single-centre study at the Neonatal Intensive Care Unit (NICU) of Padova University Hospital (Veneto, Italy) from January 2020 to July 2022. All infants admitted to the NICU born at &lt;34 +0 gestational weeks (GW) or with congenital heart disease (CHD) were enrolled after written informed consent of a legally acceptable representative. Exclusion criteria were major congenital anomalies or chromosomal abnormality, isolated structural abnormalities of the gut (i.e. omphalos or gastroschisis), or refusal of consent. Patients were prospectively followed for their possible development of NEC, SIP, or other GI conditions (cases) until discharge, or transfer to another Unit or Hospital, or death. Infants not developing these conditions were considered as healthy controls. This was a pilot study applying an untargeted metabolomic approach, for which there was no a-priori hypothesis of the number of variables characterizing each study group. Therefore, the sample size was based on previous studies on the topic and on the incidence of NEC in our center (around 10 cases/per year, thus making 20 NEC subjects suitable for an explorative data analysis). For each patient clinical and demographic characteristics, as well as laboratory data, were recorded on a preformed electronic case report form (eCRF) on the REDCap platform Plasma, urine and faecal samples were non-invasively collected at birth (within 48 hours, T0), at 14 (T1) and 28 DOL (T2), at 2 months (T2 months) and at 36 weeks of corrected gestational age (cGA) (T36). In the suspicion of NEC, SIP or other GI diseases with a presentation similar to NEC, additional plasma, urine and faecal samples were collected at symptoms' onset and then weekly until resolution. More details on data and samples' collection can be found in the Supplemental Material. NEC was defined according to the modified Bell's stage criteria by Walsh and Kliegman <ref type="bibr" target="#b5">(6)</ref>. SIP was defined as isolated intestinal perforation with presence of free intraperitoneal air (pneumoperitoneum) on abdominal x-ray and without evidence of pneumatosis, or of necrosis if laparotomy performed. Functional paralytic ileus due to sepsis was defined as intolerance to oral intake (increase in gastric residuals &gt; 50% of the volume of the preceding feed, with abdominal distension, and consequent interruption of enteral feeding) with an ongoing late onset sepsis (Vermont Oxford Network VON Criteria (27)) and without any sign of mechanical intestinal obstruction. Minimal enteral feeding (MEF) was defined as trophic feeds with a total volume of 24 ml/kg/day, while full enteral feeding (FEF) when enteral amount reached 150 ml/kg/day. Other clinical variables, such as prenatal flow alterations, preterm premature rupture of membranes (PPROM), intra-uterine growth restriction (IUGR), hemodynamically significant patent ductus arteriosus (HSPDA), were defined according to the local protocols. The protocol of this study was written according to the principles of Good Clinical Practice of the European Union and Helsinki Declaration, and was approved by the Institutional Review Board of Padova University Hospital (5128/AO/21, 4374/AO/17). No funding sources supported this study. Figure <ref type="figure" target="#fig_1">1</ref> depicts the diagram of the study design.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolomic and statistical analyses</head><p>Urine samples were analyzed at the Mass Spectrometry and Metabolomics Laboratory of the Women's and Children's Health Department, (Paediatric Research Institute IRP, University of Padova, Italy). Untargeted metabolic profiling was performed in positive and negative electrospray ionization (ESI+, ESI-) mode on an Acquity Ultra Performance Liquid Chromatography (UPLC) system (Waters, U.K.) coupled to a Quadrupole Time-of-Flight (QToF) Synapt XS HDMS mass spectrometer (Waters MS Technologies, Ltd., Manchester, U.K.). After raw data extraction, quality controls and blanks were used to calibrate and filter out the data. More details about metabolomics investigation can be found in the Supplemental Material. Categorical data were investigated by Fisher's exact test, whereas t-test or Mann-Whitney test were applied to continuous data with normal or non-normal distribution, respectively. Normal distribution was assessed by Shapiro-Wilk test. Since urinary metabolome is strongly dependent on the characteristics of the subjects, a suitable procedure of matching was applied to avoid bias due to differences in the perinatal and neonatal characteristics of the groups under investigation <ref type="bibr" target="#b26">(28)</ref>. Different approaches were applied to investigate the urinary metabolomics data. Specifically, one-class classification (OCC), including both univariate and multivariate methods in the framework of Model Population Analysis (MPA) <ref type="bibr" target="#b27">(29)</ref>, was applied to discriminate controls from the other subjects. In the case of two-group comparison, PLS for classification (PLSC) with stability selection <ref type="bibr" target="#b28">(30)</ref> and Mann-Whitney test controlling the false discovery rate by Benjamini-Hochberg method <ref type="bibr" target="#b29">(31)</ref> were used. PLS for designed experiments (PLS-doe) <ref type="bibr" target="#b30">(32)</ref> and Linear Mixed-Effects modelling (LME) for longitudinal data <ref type="bibr" target="#b31">(33)</ref> were applied to study the time evolution during the three time points. More details about statistical data analysis can be found in Section 1.2 of Supplemental Materials. Data analysis was performed by R-functions developed in-house using the platform R 4.0.4 (R Foundation for Statistical Computing). Clinical and metabolomic data have been deposited in Mendeley Data Repository (Moschino, L; Stocchero, M (2024), "METNEC Study ", Mendeley Data, V1, doi: 10.17632/83myp4xfcn.1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical characteristics of cases and controls</head><p>During the study period, 35 cases of NEC, 5 cases of SIP, 14 cases of other GI diseases in differential diagnosis with NEC (i.e. septic paralytic ileus, isolated rectal bleeding), and 113 healthy controls were recruited. The main clinical and laboratory characteristics of the unmatched initial groups are reported in Table <ref type="table" target="#tab_0">1</ref>. These show that both NEC and SIP groups carry a high burden of morbidity, with a prolonged time to reach full enteral feeding and a high risk of post-disease strictures (up to 18.5% and 20% in our cohort, respectively). Among the 35 NEC patients, 27 were affected by NEC Bell's stage II (11 medically treated and 16 surgically treated). Due to the small size of the SIP group, a statistical comparison between the NEC Bell's stage II cases and the SIP cases was not performed. The main clinical and laboratory characteristics of these two groups are reported in Table <ref type="table" target="#tab_1">2</ref>. All these cases were treated with fasting and triple antibiotic therapy (usually vancomycin or ampicillin, ceftazidime or gentamicin and metronidazole). This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4861073 P r e p r i n t n o t p e e r r e v i e w e d This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4861073 P r e p r i n t n o t p e e r r e v i e w e d</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis of the urinary metabolome</head><p>Since the urinary metabolome is strongly dependent on the perinatal and neonatal characteristics of the recruited subjects, a suitable and strict matching procedure was applied to have groups of subjects with similar characteristics, in order to avoid bias in data analysis. Additionally, only neonates with enough urine for the metabolomic analysis were considered. Specifically, the NEC group comprised 20 cases and the Control group 17 neonates after matching for the main perinatal and neonatal characteristics (GA, BW, SEX, PROM, IUGR, EOS, HSPDA, delivery, Apgar 5', prenatal steroids, surfactant, outborn/inborn) (Table <ref type="table" target="#tab_0">S1</ref> of the Supplemental material) and assuming a significant level of 0.05. The NEC Group included 7 neonates with NEC Bell's stage I, 6 neonates with NEC Bell's stage II and 7 neonates with NEC Bell's stage III. Additionally, 3 subjects with SIP and 7 subjects with other GI diseases with their urine samples collected at T0 were considered for the first step of the analysis. These latter groups were found to have similar GA and BW to the control group. After data pre-processing, two datasets, one composed of 1002 variables from the data acquired in negative ionization mode (NEG dataset) and one of 1086 variables from the data acquired by positive ionization mode (POS dataset), were obtained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Urinary metabolome at birth (T0)</head><p>As a preliminary data analysis, the one-class classification (OCC) was applied to compare healthy controls with the other groups. The models were able to correctly predict 16 out of 20 (80%) subjects with NEC, 5 out of 7 (71.4%) subjects with other GI pathologies and 100% of the subject developing SIP as not belonging to the control group (Figure <ref type="figure" target="#fig_1">S1</ref> of the Supplemental material).</p><p>Considering only the comparison of the NEC group and the Control Group, Mann-Whitney test controlling the FDR at level 0.05 discovered 8 and 16 metabolic variables from the NEG and POS datasets, respectively.. The volcano plots of Figure <ref type="figure" target="#fig_2">2A</ref> and 2C summarize the results. The PLS2C models showed 3 score components for each dataset with Matthews's correlation coefficients of cross-validation (MCCcv) of 0.782 (p=0.008) and of 0.623 (p=0.020) for NEG and POS datasets. The MCC calculated with the out-of-bag predictions during stability selection (MCCoob) were 0.664 and 0.596, respectively. Assuming a significant level of 0.05, 111 and 66 features from NEG and POS datasets, respectively, resulted to be relevant in distinguishing the two groups. The relevant scores calculated for the datasets are reported in Figure <ref type="figure" target="#fig_2">2B</ref> and<ref type="figure" target="#fig_2">2D</ref>.</p><p>Merging the results from the univariate and multivariate data analyses, 111 and 67 relevant features were discovered for the NEG and the POS datasets, respectively.</p><p>Metabolome evolution in the first 28 days of life Eighteen subjects of the NEC group and 14 controls had their urine samples collected at all the three time points of the experimental design. Exploratory data analysis based on PLS-doe showed that the urinary metabolome changed during time, but mantained a difference between NEC and control groups. Indeed, a PLS-doe model with 3 score components, R 2 =0.71 (p&lt;0.01) and Q 2 =0.57 (p&lt;0.01) was obtained for the NEG dataset and a model with 4 score components, R 2 =0.79 (p&lt;0.01) and Q 2 =0.63 (p&lt;0.01) was calculated for the POS dataset. The score scatter plots of the two model are reported in Figure <ref type="figure" target="#fig_3">3</ref>. LME analysis controlling the FDR at level 0.05 was applied to the set of relevant metabolites discovered at birth. Thirty-three and 44 variables for the NEG and POS datasets, respectively, were discovered as significant in distinguishing the two groups throughout the first 28 days of life (Figure <ref type="figure" target="#fig_4">4</ref>). Searching the Human Metabolome Database (HMDB), variable annotation led to 12 variables annotated at level 3. Among these, mevalonic acid and N-acetylcystathionine and their isomers had</p><p>This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4861073 P r e p r i n t n o t p e e r r e v i e w e d a FC[NEC/CTRL]&lt;0.4, thus being reduced in NEC patients compared to controls (Table <ref type="table" target="#tab_1">S2</ref> of the Supplemental material).</p><p>Prediction of NEC severity from urine at birth (T0) A comparison between surgical and medical NEC cases was performed considering urine at T0. To avoid bias of the analysis due to differences in the clinical data, 7 subjects with medical NEC were matched to 7 surgical NEC cases (Table <ref type="table" target="#tab_2">S3</ref> of the Supplemental material).</p><p>To limit redundancy in the data and spurious results, the analysis was focused on the behavior of 89 annotated metabolites at level 1 of the HMDB, which were identified and used to characterize the two groups. Univariate data analysis discovered 2 metabolites with a p-value&lt;0.10. Multivariate analysis based on PLS2C generated a model with 1 score component, MCCcv 0.577 with p=0.036, MCCoob 0.500. Combining the two analyses, 6 metabolites were relevant in distinguishing the two groups (Table <ref type="table" target="#tab_2">3</ref>, Figure <ref type="figure" target="#fig_5">5</ref>). In particular, N-Acetyl-aspartic acid, Butyrylcarnitine and Propionylcarnitine resulted to be increased in patients with surgical NEC, whereas 5-Hydroxyindolacetic acid decrease in these patients. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>NEC remains one of the most common and yet inexplicable causes of death in preterm infants <ref type="bibr" target="#b1">(2)</ref>. Its multifactorial pathogenesis makes it challenging to unravel a single biomarker of the disease <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b32">34,</ref><ref type="bibr" target="#b33">35)</ref>. Rapid, bedside, point-of-care tests, to be performed prior to or at clinical manifestations, may help in guiding the management, for instance in the matter of feeding strategies, appropriate administration of antibiotics, or the need for urgent surgical intervention.</p><p>With their hypothesis-free hypothesis-generating approach, the "omic" technologies may untangle a better understanding of the molecular processes responsible for NEC. Metabolomics has several advantages over the other omic approaches by detecting the functional end points of cellular reactions and the direct results of a biochemical response to a stimulus. As last downstream products of gene transcription and enzymatic pathways, metabolites provide a closer picture of the organism's phenotype and its interaction with the environment <ref type="bibr" target="#b15">(16)</ref>. Several reviews in the last 10 years have summarized studies using metabolomics for the detection of NEC biomarkers <ref type="bibr" target="#b19">(20,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b33">35,</ref><ref type="bibr" target="#b34">36)</ref>, revealing a wide variability in populations' inclusion criteria, NEC definition, timing of samples' collection (encompassing early samples or samples close to NEC onset), and type of analysed biological fluids (plasma, urine, or stools).</p><p>As previous similar studies, ours had a cross-sectional design with a longitudinal collection of data and samples and samples' retrospective analysis.</p><p>In order to exclude biases given by the possible influence of perinatal and postnatal factors on the individual's metabolome, a strict selection of subjects was applied and only groups matched for the major clinical characteristics were considered for the metabolomic analysis.</p><p>Firstly, we applied one-class classification using MPA to find prediction models of diseases in respect to a healthy state. MPA is a powerful tool for modelling as it permits variable selection, outlier detection, and model comparison, thus improving the prediction of the model <ref type="bibr" target="#b27">(29)</ref>. By this statistical analysis, we found that metabolomic analysis applied on early urine samples was able to correctly identify subjects developing NEC, SIP or other GI diseases in respect to controls with a good prediction rate. Therefore, the urinary metabolome appeared to be closely associated to the underlying disease from very early life. Similarly, both univariate and multivariate analysis were able to generate good prediction models distinguishing NEC cases vs controls based on relevant metabolic features from the early urine samples. Indeed, the Matthews's correlation coefficients of the models (MCCcv and MCCoob) were &gt;0.59 (an explanation of these scores is described in the Supplemental Material). Of these significant metabolites emerged at T0, 77 remained differently expressed in the two groups throughout the first 28 DOL. By searching in HMDB, 12 of these variables were annotated at level 3 (meaning that further analysis with mass spectral fragmentation should be performed to have a more robust hypothesis of the metabolite).</p><p>In particular, mevalonic acid (MVA) was significantly decreased in NEC cases compared to controls (FC[NEC/CTRL 0.12]). This hydroxy fatty acid, produced by the 3-hydroxy-3-methylglutaryl-CoA reductase (HMGCR), is crucial in biosynthesis of cholesterol, as well as sterol and non-sterol isoprenoids (i.e. ubiquinone, vitamin K, isopentenyl t-RNA, heme A, and farnesyl and geranyl lipid anchors). Interestingly, a MVA pathway blockade/deregulation has been linked to mitochondrial dysfunction with consequent release of pro-apoptotic factors, defective autophagy, and possibly inflammasome activation with cell death (what occurs in the Mevalonate Kinase Deficiency MKD). We can hypothesize similar consequences in the gut of infants affected by NEC due to impaired MVA pathway resulting in increased inflammation <ref type="bibr" target="#b35">(37,</ref><ref type="bibr" target="#b36">38)</ref>.</p><p>A further interesting result of our study is the discrimination of surgical vs medical NEC from the urine collected within the first 2 DOL. In particular, 6 variables resulted to be relevant in distinguishing these two groups, with increased N-Acetylaspartic acid, Butyrylcarnitine and Propionylcarnitine in infants with severe disease needing surgery. N-Acetylaspartic acid (NAA) is an amino acid predominantly found in the brain and in lower amount in peripheral organs. An upregulation of its pathway has been reported in Canavan disease (a childhood leukodystrophy), Parkinson's disease and type-2 diabetes <ref type="bibr" target="#b37">(39)</ref>. Recent studies suggest that an upregulation of NAA leads to oxidative stress with increased nitric oxide and reduced potential antioxidants in rats <ref type="bibr" target="#b38">(40,</ref><ref type="bibr" target="#b39">41)</ref>. While the role of this metabolite is difficult to interpret in NEC, an alteration in acylcarnitines' (ACs) profile, like Butyrylcarnitine and Propionylcarnitine (C4 and C3), has already been described in this condition. By targeted analysis on blood spots (newborn screening test), Sylvester et al. found 14 acylcarnitine levels as being associated with the risk of NEC, especially within the first 48 hours of life <ref type="bibr" target="#b40">(42)</ref>. The same group showed altered levels of certain ACs at day 1 as being associated with NEC development <ref type="bibr" target="#b41">(43)</ref>. Despite the debated function of ACs in the intestinal epithelium, it has being hypothesised by previous authors that a poor GI motility and a vulnerable mucosa (as in the preterm gut), in addition to carbohydrate malabsorption, presence of lactose from infant formula, and bacterial overgrowth, may cause gut fermentation of excessive carbohydrates to short chain fatty acids (SCFA), from which ACs derive. These, in turn, could impair the clearance of intraluminal content and reduce the intraluminal gut pH, favouring a microbial community imbalance, proliferation of bacteria and their translocation through the mucosa with consequent necrosis <ref type="bibr" target="#b40">(42)</ref><ref type="bibr" target="#b41">(43)</ref><ref type="bibr" target="#b42">(44)</ref><ref type="bibr" target="#b43">(45)</ref>. Thus, the increase in ACs as a mirror of altered beta-oxidation of FA may be a proxy for metabolic prematurity, indicating a higher risk of abnormal responses to metabolic challenges, such as feeding <ref type="bibr" target="#b40">(42,</ref><ref type="bibr" target="#b44">46)</ref>. As in Sylvester et al. <ref type="bibr" target="#b40">(42)</ref>, also in our study changes in ACs concentrations appear to be chain length-specific, with increases in short-chain acylcarnitines (C3 and C4) conferring the risk of severe NEC.</p><p>Considering the small number of metabolomic studies on NEC and their great heterogeneity in respect to enrolled patients, diagnostic criteria, collected biofluids and analytical methods, an adequate comparison of our results to those previously published is difficult to make <ref type="bibr" target="#b19">(20,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b32">34,</ref><ref type="bibr" target="#b33">35)</ref>. Studies applying untargeted metabolomics for NEC utilized NMR spectroscopy <ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref> or UPLC-MS on plasma <ref type="bibr" target="#b45">(47)</ref>, urine or stools <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>. The majority of studies collected samples in proximity to NEC diagnosis, i.e. samples were diagnostic for NEC or could be used to predict NEC severity. Few studies compared infants with NEC vs those with LOS (47-49), or with feeding intolerance <ref type="bibr" target="#b24">(25)</ref>. However, to our knowledge no studies evaluated the metabolic differences between cases of NEC and SIP, which is the main disease in differential diagnosis with it <ref type="bibr" target="#b19">(20)</ref>. Only one study assessed the differences in gut microbiota between infants with NEC and those with SIP on formalin fixed paraffin embedded tissue from the site of disease <ref type="bibr" target="#b48">(50)</ref>.</p><p>In urine, <ref type="bibr">Morrow et</ref>  In 2022 the same authors (47) found significant differences in the metabolic profile of neonates with LOS or NEC compared to controls by analyzing their serum with LC-quadrupole time-of-flight MS. Phosphatidylcholines or lysophosphatidylcholines were significantly reduced both in neonates with LOS and those with NEC compared to controls, whereas L-carnitine could efficiently discriminate NEC cases from controls.</p><p>As it can be seen, methodological inconsistencies among studies, disagreement on conventions for data reporting and analysis, and the sheer magnitude of data produced are significant drawbacks to studies applying high-throughput multi-omics technologies. To overcome these challenges, machine learning and artificial intelligence are becoming popular to integrate omics data with NEC clinical features, phenotypes of progression, and predicted therapeutic targets, resulting in clinically meaningful information.</p><p>The major strength of our study is to have applied a strict selection of subjects in order to eliminate biases in the metabolomic analysis. Additionally, we have included infants affected by SIP or other GI diseases in differential diagnosis with NEC. Thirdly, we have also focused on the prediction of NEC severity, identifying potential biomarkers of surgical NEC. Finally, we have collected samples at multiple timepoints over the first month of life, starting from birth. This has permitted to evaluate the evolution of the metabolome through time, given its potential changes related to enteral and parenteral feeding, infections, administered drugs and comorbidities. As regards limitations, the small number of patients has hampered the analysis of patients with only definite NEC (Bell's stage II). Finally, we could not perform the analysis of samples collected at NEC diagnosis. Despite this, to our knowledge our cohort is one of the largest enrolled for an untargeted metabolomic study on NEC so far <ref type="bibr" target="#b19">(20)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>This explorative study demonstrates that the urinary metabolome is closely associated to the underlying gastrointestinal disease from very early life. Furthermore, urinary metabolic features characterise NEC cases vs healthy controls from birth until 28 days of life. Finally, untargeted metabolomics can identify patients who will develop surgical NEC as early as birth, with a potential role of impaired fatty acids' and acylcarnitines' metabolism.</p><p>Our study confirms the important role of metabolomics in the investigation of disease pathophysiology and in the discovery of potential diagnostic/prognostic biomarkers of NEC. Our results need to be validated in future studies on independent cohorts and using targeted analysis. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHORS CONTRIBUTION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATION OF INTERESTS</head><p>The authors have no conflict of interests to declare.   Samples of the NEC group (blue) and those of the controls (green) clusterise according to the group at all time points along tp <ref type="bibr" target="#b1">[2]</ref>, while the time increases from left to right along tp <ref type="bibr" target="#b0">[1]</ref>. Circles are used for samples at T0, diamonds for samples at T1 and triangles for samples at T2.  This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4861073 P r e p r i n t n o t p e e r r e v i e w e d</p><note type="other">Figure legends</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>L.M. and G.V. conceptualized the study design; L.M., M.M. and S.G. performed the data collection; G.G. and P.P. were involved in the metabolomic analysis; M.S. was responsible of the statistical data analysis; L.M. and M.S. interpreted the data; L.M. wrote the first draft of the manuscript; G.V., M.S., M.D., F.F.L. and E.B. critically revised and edited the manuscript; L.M., G.V. and M.S. directly accessed and verified the data reported in this manuscript; E.B. supervised the work. All authors have had full access to the data and results of the study and have accepted responsibility to submit the manuscript for publication.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Diagram of the study design and flow. Images from Freepik and BioRender.com.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Metabolomics analysis of urine collected at birth (T0): volcano plot (panel A) and relevant score plot (panel B) obtained for the NEG dataset, and volcano plot (panel C) and relevant score plot (panel D) obtained for the POS dataset.The features discovered as relevant are colored in red. In the volcano plot, p is the p-value of the Mann-Whitney test and FC[NEC/CTRL] is the fold change calculated as ratio between the median in the NEC group and the median in the control group; the dashed black line represents the threshold used to control the false discovery rate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. PLS-doe: score scatter plots of the models obtained with the NEG (panel A) and the POS (panel B) datasets.Samples of the NEC group (blue) and those of the controls (green) clusterise according to the group at all time points along tp<ref type="bibr" target="#b1">[2]</ref>, while the time increases from left to right along tp<ref type="bibr" target="#b0">[1]</ref>. Circles are used for samples at T0, diamonds for samples at T1 and triangles for samples at T2.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. LME models for longitudinal data: NEG dataset (panel A) and POS dataset (panel B); p[time] and p[group] are the p-values of the fixed effects "time" and "group", respectively. Features significantly relevant to distinguish NEC cases and controls are in red. The dashed black lines indicate the thresholds used to control the FDR at level 0.05.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Boxplots representing the distributions of the most significant metabolites discovered in the comparison of medical vs surgical NEC at T0.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="18,143.11,82.37,569.20,430.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,43.30,185.50,754.43,234.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="20,51.33,126.69,746.12,345.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="21,40.10,184.77,764.90,196.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Main perinatal and neonatal characteristics of the different groups (NEC cases, SIP cases, cases with other GI conditions, controls). Data expressed as absolute number (%) or as median (IQR).</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>NEC Group</cell><cell>SIP Group</cell><cell>Other Gastrointestinal</cell><cell>Control Group</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(n=35)</cell><cell>(n=5)</cell><cell>conditions</cell><cell>(n=113)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(n=14)</cell><cell></cell></row><row><cell cols="3">Type of disease</cell><cell>Bell's stage of</cell><cell>NA</cell><cell>Final diagnosis</cell><cell>NA</cell></row><row><cell></cell><cell></cell><cell></cell><cell>NEC</cell><cell>(1 case with</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IA 6 (17.1%)</cell><cell>development of</cell><cell>Septic paralytic ileus 2</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IB 2 (5.7%)</cell><cell>NEC IIIB after SIP)</cell><cell>(14.3%)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IIA 12 (34.3%)</cell><cell></cell><cell>Isolated rectal bleeding</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IIB 1 (2.9%)</cell><cell></cell><cell>8 (57.1%)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IIIA 6 (17.1%)</cell><cell></cell><cell>Others (volvulus,</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>IIIB 8 (22.9%)</cell><cell></cell><cell>obstruction) 4 (28.6%)</cell><cell></cell></row><row><cell>Sex</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Male</cell><cell></cell><cell></cell><cell>23 (65.7%)</cell><cell>4 (80%)</cell><cell>5 (35.7%)</cell><cell>63 (55.8%)</cell></row><row><cell>Female</cell><cell></cell><cell></cell><cell>12 (34.3%)</cell><cell>1 (20%)</cell><cell>9 (64.3%)</cell><cell>50 (44.2%)</cell></row><row><cell>GA</cell><cell>at</cell><cell>birth</cell><cell>26.6 (25-30.1)</cell><cell>26.4 (26.3-28.1)</cell><cell>30.3 (27.6-32.6)</cell><cell>30 (28.1-32)</cell></row><row><cell cols="2">(weeks)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Birth</cell><cell cols="2">weight</cell><cell>855 (752.5-1230)</cell><cell>790 (740-825)</cell><cell>1353 (816-1610)</cell><cell>1230 (950-1550)</cell></row><row><cell cols="2">(grams)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>IUGR</cell><cell></cell><cell></cell><cell>9 (25.7%)</cell><cell>2 (40%)</cell><cell>2 (14.3%)</cell><cell>24 (21.2)</cell></row><row><cell>Apgar</cell><cell>at</cell><cell>5</cell><cell>7 (6-8)</cell><cell>7 (6-7)</cell><cell>8 (7-8)</cell><cell>8 (7-8)</cell></row><row><cell cols="2">minutes</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Ethnicity</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Caucasic</cell><cell></cell><cell>33 (94.3%)</cell><cell>4 (80%)</cell><cell>11 (78.6%)</cell><cell>96 (85%)</cell></row><row><cell>African</cell><cell></cell><cell></cell><cell>1 (2.9%)</cell><cell>1 (20%)</cell><cell>2 (14.3%)</cell><cell>11 (9.7%)</cell></row><row><cell>Asiatic</cell><cell></cell><cell></cell><cell>1 (2.9%)</cell><cell>0 (0%)</cell><cell>1 (7.1%)</cell><cell>6 5.3%)</cell></row><row><cell cols="3">Mode of delivery</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Caesarean section</cell><cell>29 (82.9%)</cell><cell>4 (80%)</cell><cell>12 (85.7%)</cell><cell>100 (88.5%)</cell></row><row><cell cols="3">Vaginal delivery</cell><cell>6 (17.1%)</cell><cell>1 (20%)</cell><cell>2 (14.3%)</cell><cell>13 (11.5%)</cell></row><row><cell cols="3">Prenatal steroids</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Complete</cell><cell></cell><cell>20 (57.2%)</cell><cell>5 (100%)</cell><cell>10 (71.4%)</cell><cell>85 (75.2%)</cell></row><row><cell cols="2">Incomplete</cell><cell></cell><cell>6 (17.1%)</cell><cell>0 (0%)</cell><cell>1 (7.1%)</cell><cell>16 (14.2%)</cell></row><row><cell>None</cell><cell></cell><cell></cell><cell>9 (25.7%)</cell><cell>0 (0%)</cell><cell>3 (21.5%)</cell><cell>12 (10.6%)</cell></row><row><cell cols="3">Treatment with</cell><cell>24 (68.6%)</cell><cell>5 (100%)</cell><cell>9 (64.3%)</cell><cell>61 (54%)</cell></row><row><cell cols="2">surfactant</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">HsPDA</cell><cell></cell><cell>18 (51.4%)</cell><cell>2 (40%)</cell><cell>4 (28.6%)</cell><cell>29 (25.7%)</cell></row><row><cell>EOS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>No</cell><cell></cell><cell></cell><cell>26 (74.2%)</cell><cell>5 (100%)</cell><cell>10 (71.4%)</cell><cell>90 (79.6%)</cell></row><row><cell cols="2">Suspected</cell><cell></cell><cell>8 (22.9%)</cell><cell>0 (0%)</cell><cell>4 (38.6%)</cell><cell>21 (18.6%)</cell></row><row><cell cols="2">Definitive</cell><cell></cell><cell>1 (2.9%)</cell><cell>0 (0%)</cell><cell>0 (0%)</cell><cell>2 (1.8%)</cell></row><row><cell cols="3">Total days of</cell><cell>7 (3-8)</cell><cell>3 (3-5)</cell><cell>6 (4-7)</cell><cell>4 (3-6)</cell></row><row><cell cols="3">ATBs for EOS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Postnatal</cell><cell></cell><cell>6 (17.1%)</cell><cell>1 (20%)</cell><cell>1 (7.1%)</cell><cell>14 (12.4%)</cell></row><row><cell cols="3">systemic steroids</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Human milk at</cell><cell>25 (71.4%)</cell><cell>4 (80%)</cell><cell>9 (64.3%)</cell><cell>68 (60.2%)</cell></row><row><cell cols="3">start of feeding</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Total days to</cell><cell>37.5 (26.7-65.5)</cell><cell>47 (41-114)</cell><cell>29 (19-48)</cell><cell>12 (8-21)</cell></row><row><cell cols="2">reach FEF</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>Abbreviations: ATBs=antibioticsM; EOS=early onset sepsis; FEF=full enteral feeding; GA=gestational age; HsPDA=haemodynamically significant patent ductus arteriosus; IUGR=intrauterine growth restriction;</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Main clinical and laboratory characteristics of the neonates affected by NEC Bell's stage II and by SIP within 48 hours before and after onset, the clinical management and potential complications. Data expressed as absolute number (%) or as median (IQR).</figDesc><table><row><cell>NEC  II</cell><cell>SIP</cell></row><row><cell>(n=27)</cell><cell>(n=5)</cell></row></table><note><p>*Including days of NPO for subsequent surgeries or complications of NEC **One death before performing ExLap, autopsy not performed Abbreviations: ATB=antibiotics; CRP=C-reactive protein; ExLap=exploratory laparotomy; NEC=necrotizing enterocolitis; NPO=nihil per os; PD=peritoneal drainage; SIP=spontaneous intestinal perforation; WBC=white blood cells.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Relevant metabolites in the comparison of medical vs surgical NEC: annotation is the name of the compound, FC[medical/surgical] is the fold change at T0 calculated as ratio between the median in the medical NEC group and the median in the surgical NEC group; p is the p-value of the Mann-Whitney test.</figDesc><table><row><cell>Annotation</cell><cell>FC[medical/surgical]</cell><cell>p</cell></row><row><cell>5-Hydroxyindolacetic acid</cell><cell>2.12</cell><cell>0.017</cell></row><row><cell>N-Acetyl-aspartic acid</cell><cell>0.66</cell><cell>0.073</cell></row><row><cell>Butyrylcarnitine (C4 carnitine)</cell><cell>0.44</cell><cell>0.128</cell></row><row><cell>Propionylcarnitine (C3 carnitine)</cell><cell>0.09</cell><cell>0.165</cell></row><row><cell>Taurohyocholic acid</cell><cell>0.80</cell><cell>0.209</cell></row><row><cell>N-Acetyl-glycine</cell><cell>1.07</cell><cell>0.209</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>al.<ref type="bibr" target="#b22">(23)</ref> demonstrated an early (4-9 DOL) alanine/histidine ratio &gt;4 to be associated with microbial characteristics and to have a sensitivity of 82% with a predictive value of 78% for NEC. Also, alanine was positively associated with NEC cases that were preceded by Firmicutes dysbiosis, and histidine was inversely associated with NEC cases preceded by Proteobacteria dysbiosis, indicating a close link between gut microbiota and metabolomic signatures. Picaud et al.<ref type="bibr" target="#b24">(25)</ref>, instead, applied NMR spectroscopy on urine collected before, during and after diagnosis of NEC Bell's stage II (6 patients) demonstrating that lactate, betaine, myo-inositol, urea, creatinine, and N,N-dimethylglycine discriminated late-onset NEC (&gt; 3 weeks of life) from controls with good feeding tolerance. Thoimadou et al.<ref type="bibr" target="#b23">(24)</ref> applied both untargeted NMR spectroscopy and targeted LC-MS on urine samples collected after initial evaluation for NEC (15 cases, every stage) and at a similar postnatal age for controls. They found 25 discriminant metabolites, with NEC cases characterised by lower levels of Tyrosine, Proline, Citrate, 4-hydroxybenzoate, Formate, Succinate, 4hydroxyphenylacetate, Fumarate, Creatinine, Myoinositol, and hippuric acid.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4861073 P r e p r i n t n o t p e e r r e v i e w e d</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGEMENTS</head><p>We thank the Consultant Neonatologists, paediatric residents and nurses of the Neonatal Intensive Care Unit of Padova University Hospital for their precious support in this study. Some of our findings have been previously reported in the form of abstract (Joint of European Neonatal Society Congress 2023) and short paper (first prize Young Investigators of the Italian Neonatal Society 2023).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA SHARING STATEMENT</head><p>Participant data with identifiers, the study protocol and the informed consent form will be made available under specific request by email to the corresponding author.</p><p>This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=4861073 P r e p r i n t n o t p e e r r e v i e w e d</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Global incidence of Necrotizing Enterocolitis: A systematic review and Meta-analysis. BMC Pediatr</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alsaied</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thalib</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020-07-13">2020 Jul 13</date>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Trends in incidence and outcomes of necrotizing enterocolitis over the last 12 years: A multicenter cohort analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Morrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Soll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr Surg</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="998" to="1001" />
+			<date type="published" when="2020-06">2020 Jun</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Contemporary Outcomes for Infants with Necrotizing Enterocolitis-A Systematic Review</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page" from="86" to="92" />
+			<date type="published" when="2020-05">2020 May</date>
+		</imprint>
+	</monogr>
+	<note>e3</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Necrotizing Enterocolitis: Long Term Complications</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bazacliu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Pediatr Rev</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="115" to="124" />
+			<date type="published" when="2019-07-22">2019 Jul 22</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Neonatal Necrotizing Enterocolitis. Therapeutic decisions based upon clinical staging</title>
+		<author>
+			<persName><forename type="first">Ternberg</forename><surname>Bell Mj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feigin</forename><surname>Jl</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Keating</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marshall</forename><forename type="middle">R</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="1978-01">1978 Jan</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Necrotizing Enterocolitis: Treatment Based on Staging Criteria</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kliegman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Clin North Am</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="179" to="201" />
+			<date type="published" when="1986-02">1986 Feb</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Defining necrotizing enterocolitis: current difficulties and future opportunities</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Mcelroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khashu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Caplan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Springer Nature</publisher>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="10" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Morbidity associated with laparotomy-confirmed spontaneous intestinal perforation: A prospective multicenter analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Culbreath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Morrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Soll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jaksic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr Surg</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="981" to="985" />
+			<date type="published" when="2022-06">2022 Jun</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Discriminating necrotising enterocolitis and focal intestinal perforation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Embleton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Dis Child Fetal Neonatal Ed</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="336" to="339" />
+			<date type="published" when="2022-05">2022 May</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Intestinal obstruction and ileus in the newborn. Paediatr Child Health</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Folaranmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Goel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022-01">2022 Jan</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="7" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Current status of laboratory and imaging diagnosis of neonatal necrotizing enterocolitis</title>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Impellizzeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marseglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montalto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Salamone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ital J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">84</biblScope>
+			<date type="published" when="2018-12-25">2018 Dec 25</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Recent Advances in Necrotizing Enterocolitis Research: Strategies for Implementation in Clinical Practice</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pammi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>De Plaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maheshwari</surname></persName>
+		</author>
+		<editor>Perinatology. W.B. Saunders</editor>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="383" to="397" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Biomarkers of gut injury in neonates -where are we in predicting necrotising enterocolitis? Front Pediatr</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Howarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aladangady</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022-11-28">2022 Nov 28</date>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Serum Markers of Necrotizing Enterocolitis: A Systematic Review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Terrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stronati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cucchiara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr Gastroenterol Nutr</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="120" to="132" />
+			<date type="published" when="2017-12">2017 Dec</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Understanding &quot;Global&quot; Systems Biology: Metabonomics and the Continuum of Metabolism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="668" to="676" />
+			<date type="published" when="2003-08">2003 Aug</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Metabolomics: A New Frontier for Research in Pediatrics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Carraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Reniero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Perilongo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Baraldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="638" to="644" />
+			<date type="published" when="2009-05">2009 May</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Single-Cell Metabolomics by Mass Spectrometry</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shrestha</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Metabolomics as a Challenging Approach for Medicinal Chemistry and Personalized Medicine</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frédérich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pirotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Tullio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="8649" to="8666" />
+			<date type="published" when="2016-10-13">2016 Oct 13</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Metabolomics in necrotizing enterocolitis: the state of the art</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dessì</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pintus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cesare</forename><surname>Marincola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Magistris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Mol Diagn</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1053" to="1058" />
+			<date type="published" when="2016-10-02">2016 Oct 2</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Metabolome and the Gut Microbiota for the Prediction of Necrotizing Enterocolitis and Spontaneous Intestinal Perforation: A Systematic Review</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moschino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Verlato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Cavicchiolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guiducci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stocchero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">3859</biblScope>
+			<date type="published" when="2022-09-18">2022 Sep 18</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Temporal bacterial and metabolic development of the preterm gut reveals specific signatures in health and disease</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Embleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ecl</forename><surname>Marrs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abdulkadir</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016-12-29">2016 Dec 29</date>
+			<publisher>Microbiome</publisher>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">67</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rusconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sidhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Ory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Tarr</surname></persName>
+		</author>
+		<title level="m">Gut Sphingolipid Composition as a Prelude to Necrotizing Enterocolitis. Sci Rep</title>
+		<imprint>
+			<date type="published" when="2018-07-20">2018 Jul 20</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">10984</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Early microbial and metabolomic signatures predict later onset of necrotizing enterocolitis in preterm infants</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Morrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lagomarcino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Schibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Taft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dec</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Microbiome</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A pilot casecontrol study of urine metabolomics in preterm neonates with necrotizing enterocolitis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thomaidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Chatziioannou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Deda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Benaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mikros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chromatogr B Analyt Technol Biomed Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">1117</biblScope>
+			<biblScope unit="page" from="10" to="21" />
+			<date type="published" when="2019-06-01">2019 Jun 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Urine NMR Metabolomics Profile of Preterm Infants With Necrotizing Enterocolitis Over the First Two Months of Life: A Pilot Longitudinal Case-Control Study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Picaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Magistris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mussap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Corbu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dessì</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Noto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Mol Biosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2021-06-15">2021 Jun 15</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Metabolomics in NEC: An Updated Review. Metabolites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bosco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Piu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Picciau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pintus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dessì</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023-12-24">2023 Dec 24</date>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Multimodal treatment of radiation-induced esophageal cancer: Results of a case-matched comparative study from a single center</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Pierobon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Capovilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pasqual</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Fornasier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salvador</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Surgery</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">106268</biblScope>
+			<date type="published" when="2022-03">2022 Mar</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Model population analysis in chemometrics. Chemometrics and Intelligent Laboratory Systems</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Liang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-12">2015 Dec</date>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="166" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">PLS for classification. Chemometrics and Intelligent Laboratory Systems</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stocchero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Nardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scarpa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021-09">2021 Sep</date>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page">104374</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Discovering the False Discovery Rate</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Benjamini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J R Stat Soc Series B Stat Methodol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="405" to="416" />
+			<date type="published" when="2010-09-01">2010 Sep 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">NMR Metabonomic Profile of Preterm Human Milk in the First Month of Lactation: From Extreme to Moderate Prematurity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sottemano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cesare</forename><surname>Marincola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stocchero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pusceddu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Dessì</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022-01-26">2022 Jan 26</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">345</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Random-Effects Models for Longitudinal Data</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ware</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">963</biblScope>
+			<date type="published" when="1982-12">1982 Dec</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Exploring functional metabolites in preterm infants</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Renwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Paediatrica, International Journal of Paediatrics</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="45" to="53" />
+			<date type="published" when="2022">2022</date>
+			<publisher>John Wiley and Sons Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Emerging Biomarkers for Prediction and Early Diagnosis of Necrotizing Enterocolitis in the Era of</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agakidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Agakidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sarafidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Pediatrics. Frontiers Media S.A</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Metabolomics and Proteomics</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Use of omic technologies in early life gastrointestinal health and disease: from bench to bedside</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Granger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Masi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stewart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<publisher>Taylor and Francis Ltd</publisher>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="247" to="259" />
+		</imprint>
+	</monogr>
+	<note>Expert Review of Proteomics</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Mevalonate Pathway Blockade, Mitochondrial Dysfunction and Autophagy: A Possible Link</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tricarico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Crovella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Celsi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Mol Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="16067" to="16084" />
+			<date type="published" when="2015-07-15">2015 Jul 15</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Synthesis, function, and regulation of sterol and nonsterol isoprenoids</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Faulkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jo</forename><forename type="middle">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Mol Biosci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2022-10-05">2022 Oct 5</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Upregulation of N-acetylaspartic Acid Induces Oxidative Stress to Contribute in Disease Pathophysiology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Surendran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bhatnagar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="305" to="309" />
+			<date type="published" when="2011-05-19">2011 May 19</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">N-Acetylaspartic acid promotes oxidative stress in cerebral cortex of rats</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pederzolli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Mescka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Rockenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Â</forename><forename type="middle">M</forename><surname>Sgaravatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Sgarbi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Developmental Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="317" to="324" />
+			<date type="published" when="2007-08-07">2007 Aug 7</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Intracerebroventricular administration of N-acetylaspartic acid impairs antioxidant defenses and promotes protein oxidation in cerebral cortex of rats</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pederzolli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Rockenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Zanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Henn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Romagna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Â</forename><forename type="middle">M</forename><surname>Sgaravatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metab Brain Dis</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="283" to="298" />
+			<date type="published" when="2009-06-18">2009 Jun 18</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Acylcarnitine Profiles Reflect Metabolic Vulnerability for Necrotizing Enterocolitis in Newborns Born Premature</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Sylvester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Kastenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Enns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="80" to="85" />
+			<date type="published" when="2017-02">2017 Feb</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Progressive Metabolic Dysfunction and Nutritional Variability Precedes Necrotizing Enterocolitis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sinclair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">B</forename><surname>Ling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">1275</biblScope>
+			<date type="published" when="2020-04-30">2020 Apr 30</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Carnitine-Acylcarnitine Translocase Deficiency Masked by Extreme Prematurity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scottoline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Jordan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="179" to="183" />
+			<date type="published" when="2023-06-17">2023 Jun 17</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Necrotizing Enterocolitis and Respiratory Distress Syndrome as First Clinical Presentation of Mitochondrial Trifunctional Protein Deficiency</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Diekman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cca</forename><surname>Boelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bhcmt</forename><surname>Prinsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ijlst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>De Koning</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The Hidden Treasure of Neonatal Screening: Identifying New Risk Factors and Possible Mechanisms of Necrotizing Enterocolitis Through Big Data</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rusconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Warner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="9" to="11" />
+			<date type="published" when="2017-02">2017 Feb</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A Prospective, Case-Control Study of Serum Metabolomics in Neonates with Late-Onset Sepsis and Necrotizing Enterocolitis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thomaidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Deda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Begou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lioupi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kontou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gika</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">5270</biblScope>
+			<date type="published" when="2022-09-07">2022 Sep 7</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">The Microbiome and Metabolome of Preterm Infant Stool Are Personalized and Not Driven by Health Outcomes, Including Necrotizing Enterocolitis and Late-Onset Sepsis. mSphere</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wandro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Osborne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Enriquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bixby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arrieta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Whiteson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-06-27">2018 Jun 27</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Metabolomic and proteomic analysis of serum from preterm infants with necrotising entercolitis and late-onset sepsis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Treumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Skeath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Embleton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Res</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="425" to="431" />
+			<date type="published" when="2016-03-16">2016 Mar 16</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Using formalin fixed paraffin embedded tissue to characterize the preterm gut microbiota in necrotising enterocolitis and spontaneous isolated perforation using marginal and diseased tissue</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fatemizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Shady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Petrosino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">52</biblScope>
+			<date type="published" when="2019-12-04">2019 Dec 4</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
